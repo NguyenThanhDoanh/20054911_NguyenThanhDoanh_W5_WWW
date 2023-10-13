@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table class="table table-striped">
+    <thead>
+    <tr>
+
+
+        <th>empId</th>
+        <th>fullName</th>
+        <th>dob</th>
+        <th>email</th>
+
+        <th>phone</th>
+        <th>address</th>
+        <th>status</th>
+        <th>actions</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <%
+    AddressServiceClient ad =  new AddressServiceClient();
+
+    ArrayList<Address> list = (ArrayList<Address>) ad.getAllAddresses();
+        //check null
+        if (list != null) {
+
+        %>
+        <%
+
+        for (Address address : list) {
+
+
+
+        %>
+        <tr>
+            <td><%=address.getCity()%>
+            </td>
+            <td><%=address.getStreet()%>
+            </td>
+            <td><%=address.getNumber()%>
+            </td>
+            <td><%=address.getZipcode()%>
+            </td>
+            <td><%=address.getZipcode()%>
+            </td>
+            <td>
+                <%--                        <a href="EmployeeController?actions=edit&empId=<%=employee.getEmpId()%>" class="btn btn-primary">Sửa</a>--%>
+                <a href="EmployeeController?actions=delete&empId=<%=address.getId()%>"
+                   class="btn btn-danger"><i class="fas fa-trash"></i></a>
+            </td>
+        </tr>
+
+
+        <% } %>
+        <%
+        }
+        %>
+
+
+    </tbody>
+</table>
+</body>
+</html>
