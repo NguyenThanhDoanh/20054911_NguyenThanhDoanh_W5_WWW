@@ -5,18 +5,18 @@ Hoàn Thành:
 4.Cho phép nhà tuyển dụng đăng tuyển Job
 5.Đề xuất những job theo skill của ứng viên(được chỉ định sẵn)
 6.Demo ứng dụng phân trang
-##Database
+## Database
 ![alt text](db.png)
 diagram :![alt text](db2.png)
-##Cấu trúc source
+##  trúc source
 ![alt text](cautruc.png)
-##Đăng tin tuyển dụng của cty
+## Đăng tin tuyển dụng của cty
 ![alt text](dangtin.png)
-##Thêm kỹ năng cty cần tuyển
+## Thêm kỹ năng cty cần tuyển
 ![alt text](skillcty.png)
-##Màn hình ứng tuyển cho người lao động 
+## Màn hình ứng tuyển cho người lao động 
 ![alt text](manhinhungtruyen.png)
-##Lọc theo skill
+## Lọc theo skill
 ![alt text](loc.png)
-##Màn Hình Phân trang
+## Màn Hình Phân trang
 ![alt text](phantrang.png)
