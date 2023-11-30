@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 @Controller
-public class AddressController {
+public class PagingController {
 
 
     @Autowired
