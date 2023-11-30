@@ -7,8 +7,9 @@ Hoàn Thành:
 6.Demo ứng dụng phân trang
 ## Database
 ![alt text](db.png)
-diagram :![alt text](db2.png)
-##  trúc source
+## diagram :
+![alt text](db2.png)
+## Cấu trúc source
 ![alt text](cautruc.png)
 ## Đăng tin tuyển dụng của cty
 ![alt text](dangtin.png)
