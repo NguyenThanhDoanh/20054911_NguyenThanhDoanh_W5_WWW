@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Controller
-public class MainController {
+public class Allcontroller {
 
     @Autowired
     private CompanyRepository companyRepository;
