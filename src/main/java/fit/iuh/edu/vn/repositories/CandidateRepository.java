@@ -1,4 +1,4 @@
-package fit.iuh.edu.vn.repository;
+package fit.iuh.edu.vn.repositories;
 
 import fit.iuh.edu.vn.entities.Candidate;
 import org.springframework.data.jpa.repository.JpaRepository;

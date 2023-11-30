@@ -2,9 +2,9 @@ package fit.iuh.edu.vn.emums;
 
 public enum SkillType {
 
-    SOFT_SKILL(1),
-    UNSPECIFC(0),
-    TECHNICAL_SKILL(-1)  ;
+    SOFT_SKILL(2),
+    TECHNICAL_SKILL(0),
+     UNSPECIFC(1)  ;
 
     private int value;
 

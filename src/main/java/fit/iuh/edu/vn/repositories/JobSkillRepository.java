@@ -1,4 +1,4 @@
-package fit.iuh.edu.vn.repository;
+package fit.iuh.edu.vn.repositories;
 
 import fit.iuh.edu.vn.entities.JobSkill;
 import fit.iuh.edu.vn.ids.JobSkillID;

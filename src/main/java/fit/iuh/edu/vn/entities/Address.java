@@ -1,8 +1,11 @@
 package fit.iuh.edu.vn.entities;
 
-import com.neovisionaries.i18n.CountryCode;
+import fit.iuh.edu.vn.emums.CountryCode;
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 
 
 @Entity
@@ -11,7 +14,6 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-@Builder
 public class Address {
 
 

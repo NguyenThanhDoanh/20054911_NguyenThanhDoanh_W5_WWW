@@ -1,8 +1,6 @@
 package fit.iuh.edu.vn.ids;
 
 
-
-
 import fit.iuh.edu.vn.entities.Job;
 import fit.iuh.edu.vn.entities.Skill;
 

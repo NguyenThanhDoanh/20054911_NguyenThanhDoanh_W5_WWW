@@ -1,5 +1,7 @@
 package fit.iuh.edu.vn.entities;
 
+
+
 import fit.iuh.edu.vn.emums.SkillLevel;
 import fit.iuh.edu.vn.ids.CandidateSkillID;
 import jakarta.persistence.*;
